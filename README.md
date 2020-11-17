@@ -24,10 +24,10 @@ docker push nilsonrsvieira/dockerform:0.1
 # Execução
 Para executar basta entrar no repositório e executar com o paramentro terraform escolhido sem colchetes.
 ```bash
-docker run -v ${PWD}:/data dockerform:0.1 [paramentro]
+docker run -v ${PWD}:/data nilsonrsvieira/dockerform:0.1 [paramentro]
 ```
 
 **Exemplo:**
 ```bash
-docker run -v ${PWD}:/data dockerform:0.1 plan
+docker run -v ${PWD}:/data nilsonrsvieira/dockerform:0.1 plan
 ```
